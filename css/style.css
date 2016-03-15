@@ -240,3 +240,7 @@ a.blog-title:hover {
   width: 30%;
 } 
     }
+
+img.fw-icons {
+    padding-right: 5px;
+}
