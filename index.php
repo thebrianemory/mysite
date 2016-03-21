@@ -87,7 +87,7 @@
       <h2 class="text-left"><a href="#">Part One of the Blog</a></h2>
       <p class="text-left">Bacon ipsum dolor amet venison ham prosciutto, landjaeger pork belly frankfurter pork loin filet mignon chuck sausage jerky boudin andouille. Tri-tip ham hock porchetta short ribs drumstick, turkey pancetta capicola cow kielbasa brisket doner
         hamburger shoulder tongue. Salami meatball sausage pancetta capicola ball tip shoulder... <a href="#"><i class="fa fa-arrow-circle-right"></i> Read More</a></p> -->
-                <?php 
+                <?php
                 $args = array( 'numberposts' => 3, 'post_status'=>"publish",'post_type'=>"post",'orderby'=>"post_date");
                 $postslist = get_posts( $args );
                 echo '<div id="latest_posts">';
@@ -144,7 +144,7 @@
                 <h3>Dev Match <a href="https://github.com/thebrianemory/simplecodecasts_saas" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
                 <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/jquery.png" height="40px" class="fw-icons">
                 <a href="https://gentle-fjord-87483.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-devmatch.png"></a>
-                  <p class="text-left">Dev Match was a project built while doing <a href="https://codermanual.com/">Coder Manual's Web Developer Boot Camp with Rails</a>. It was a lot of fun building and learning about Rails in the process.</p>
+                  <p class="text-left">Dev Match was a project built while doing <a href="https://codermanual.com/">Coder Manual's Web Developer Boot Camp with Rails</a>. It is a SaaS app and includes Stripe integration for taking payments.</p>
               </div>
               <div class="col-md-4">
                 <h3>Random Quote Machine <a href="https://github.com/thebrianemory/quote-machine" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
@@ -203,42 +203,54 @@
                     <br>
                     <br>
                     <!-- Connect Form Start -->
-                    <div class="container">
-                        <div class="row" id="contact_form">
-                            <div class="col-md-12">
-                                <form data-disable="false" data-toggle="validator" id="feedbackForm" name="feedbackForm" role="form">
-                                    <div class="form-group text-left">
-                                        <label class="control-label" for="name">Name *</label>
-                                        <div class="input-group">
-                                            <input class="form-control" id="name" name="name" placeholder="Enter your name" type="text"> <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
-                                        </div><span class="help-block" style="display: none;">*Please enter your name.</span>
-                                    </div>
-                                    <div class="form-group text-left">
-                                        <label class="control-label" for="email">Email Address *</label>
-                                        <div class="input-group">
-                                            <input class="form-control" id="email" name="email" placeholder="Enter your email" type="email"> <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
-                                        </div><span class="help-block" style="display: none;">*Please enter a valid e-mail address.</span>
-                                    </div>
-                                    <div class="form-group text-left">
-                                        <label class="control-label" for="email">Subject *</label>
-                                        <div class="input-group">
-                                            <input class="form-control" id="subject" name="subject" placeholder="Enter your subject" type="text"> <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
-                                        </div><span class="help-block" style="display: none;">*Please enter a valid subject.</span>
-                                    </div>
-                                    <div class="form-group text-left">
-                                        <label class="control-label" for="message">Message *</label>
-                                        <div class="input-group">
-                                            <textarea class="form-control" cols="30" id="message" name="message" placeholder="Enter your message" required="" rows="5" style="resize:none"></textarea> <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
-                                        </div><span class="help-block" style="display: none;">*Please enter a message.</span>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="g-recaptcha" data-sitekey="6LdkCwwTAAAAAFxv10xzE1NZo--npFFK5sA6rGe_"></div><span class="help-block text-left" style="display: none;">*Please check that you are not a robot.</span>
-                                    </div><span class="help-block text-left" style="display: none;">*Please enter the security code.</span> <button class="btn btn-primary btn-lg connect-button" data-loading-text="Sending..." id="feedbackSubmit" style="display: block; margin-top: 10px;" type="submit">Send Message</button>
-                                </form>
-                            </div>
-                        </div>
-                        <hr>
-                    </div><!-- Connect Form End -->
+          <div class="container">
+            <div id="contact_form" class="row">
+              <div class="col-md-12">
+                <form role="form" id="feedbackForm" data-toggle="validator" data-disable="false">
+                  <div class="form-group text-left">
+                    <label class="control-label" for="name">Name *</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required/>
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
+                    </div>
+                    <span class="help-block" style="display: none;">*Please enter your name.</span>
+                  </div>
+                  <div class="form-group text-left">
+                    <label class="control-label" for="email">Email Address *</label>
+                    <div class="input-group">
+                      <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required/>
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
+                    </div>
+                    <span class="help-block" style="display: none;">*Please enter a valid e-mail address.</span>
+                  </div>
+                  <div class="form-group text-left">
+                    <label class="control-label" for="email">Subject *</label>
+                    <div class="input-group">
+                      <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter your subject" required/>
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
+                    </div>
+                    <span class="help-block" style="display: none;">*Please enter a valid subject.</span>
+                  </div>
+                  <div class="form-group text-left">
+                    <label class="control-label" for="message">Message *</label>
+                    <div class="input-group">
+                      <textarea rows="5" cols="30" class="form-control" id="message" name="message" placeholder="Enter your message" style="resize:none" required></textarea>
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-unchecked form-control-feedback"></i></span>
+                    </div>
+                    <span class="help-block" style="display: none;">*Please enter a message.</span>
+                  </div>
+                  <div class="form-group">
+                    <div class="g-recaptcha" data-sitekey="6LdkCwwTAAAAAFxv10xzE1NZo--npFFK5sA6rGe_"></div>
+                    <span class="help-block text-left" style="display: none;">*Please check that you are not a robot.</span>
+                  </div>
+                  <span class="help-block text-left" style="display: none;">*Please enter the security code.</span>
+                  <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg connect-button" data-loading-text="Sending..." style="display: block; margin-top: 10px;">Send Message</button>
+                </form>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <!-- Connect Form End -->
                 </div>
             </div>
         </div>
@@ -254,19 +266,19 @@
         <a class="page-scroll btn btn-primary" href="#page-top"><i class="fa fa-angle-double-up"></i></a>
     </div><!-- End Back To Top Button -->
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
-    </script> 
+    </script>
     <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'>
-    </script> 
+    </script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'>
-    </script> 
+    </script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js'>
-    </script> 
+    </script>
     <script src='https://www.google.com/recaptcha/api.js'>
-    </script> 
+    </script>
     <script src='assets/js/contact-form.js'>
-    </script> 
+    </script>
     <script src="js/index.js">
-    </script> 
+    </script>
     <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

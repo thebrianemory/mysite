@@ -26,7 +26,7 @@
 
   $(document).ready(function() {
     if ($("#phone").intlTelInput) {
-      $("#phone").intlTelInput({validationScript: "http://www.brianemory.com/fcc/port/contact_test/assets/vender/intl-tel-input/js/isValidNumber.js"});
+      $("#phone").intlTelInput({validationScript: "assets/vender/intl-tel-input/js/isValidNumber.js"});
       $(".intl-tel-input.inside").css('width', '100%');
     }
 
@@ -68,7 +68,7 @@
       //send the feedback e-mail
       $.ajax({
         type: "POST",
-        url: "http://www.brianemory.com/fcc/port/contact_test/library/sendmail.php",
+        url: "library/sendmail.php",
         data: $form.serialize(),
         success: function(data) {
           contactFormUtils.addAjaxMessage(data.message, false);
