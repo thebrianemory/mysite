@@ -114,12 +114,12 @@
       <div class="col-lg-12">
         <div class="hr-section">
           <h1 class="section-header">
-              PROJECTS
+              RECENT PROJECTS
           </h1>
         </div>
           <div class="well">
-            <div class="row">
-               <!-- For first row of projects -->
+          <div class="row">
+              <!-- For first row of projects -->
                 <div class="col-md-4">
                   <h3>Project Management App <a href="https://github.com/thebrianemory/saas-app" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
                   <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/javascript.png" height="40px" class="fw-icons">
@@ -139,45 +139,7 @@
                   <p class="text-left">Finance Tracker is the second app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. You can search and add stocks to track as well as search and add friends.</p>
               </div>
             </div>
-            <!-- For second row of projects -->
-            <div class="row">
-              <div class="col-md-4">
-                  <h3>Alpha Blog <a href="https://github.com/thebrianemory/alpha-blog" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                  <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/jquery.png" height="40px" class="fw-icons">
-                  <a href="https://alpha-blog-thebrianemory.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-alphablog.png"></a>
-                  <p class="text-left">Alpha Blog is the first app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. It allows users to sign up, create blog posts, and browse users and blog categories.</p>
-              </div>
-              <div class="col-md-4">
-                <h3>Dev Match <a href="https://github.com/thebrianemory/simplecodecasts_saas" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/jquery.png" height="40px" class="fw-icons">
-                <a href="https://gentle-fjord-87483.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-devmatch.png"></a>
-                  <p class="text-left">Dev Match was a project built while doing <a href="https://codermanual.com/">Coder Manual's Web Developer Boot Camp with Rails</a>. It is a SaaS app and includes Stripe integration for taking payments.</p>
-              </div>
-              <div class="col-md-4">
-                  <h3>Personal Portfolio <a href="https://github.com/thebrianemory/mysite" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                  <img src="img/html.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/php.png" height="40px" class="fw-icons">
-                  <a href="http://www.brianemory.com"><img class="img-responsive project-image" src="img/port-portfolio.jpg"></a>
-                  <p class="text-left">My personal portfolio project for Free Code Camp went from a basic site to a complete, obsessive makeover complete with learning some PHP. You can read all about it on <a href="http://www.brianemory.com/blog/how-my-personal-portfolio-project-became-an-obsession/">my blog</a>.</p>
-              </div>
-            </div>
-            <div class="row">
-              <!-- For third row of projects -->
-              <!-- <div class="col-md-4">
-
-              </div> -->
-              <div class="col-md-4">
-                <h3>Random Quote Machine <a href="https://github.com/thebrianemory/quote-machine" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                <img src="img/javascript.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/jquery.png" height="40px" class="fw-icons">
-                  <a href="http://brianemory.com/quote-machine/" target="_blank"><img class="img-responsive project-image" src="img/port-qm.jpg"></a>
-                  <p class="text-left">Another Free Code Camp project, I was able to learn about the Twitter API and incorporating it into a site. This generator will tweet the generated quote to @TheXFiles with #TheXFiles.</p>
-              </div>
-              <div class="col-md-4">
-                <h3>Local Weather App <a href="https://github.com/thebrianemory/local-weather-app" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                <img src="img/javascript.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/jquery.png" height="40px" class="fw-icons">
-                  <a href="http://brianemory.com/local-weather-app/" target="_blank"><img class="img-responsive project-image" src="img/port-weather.png"></a>
-                  <p class="text-left">This fun Free Code Camp project allows you to see your local weather. Depending on the temperature, the background image will change.</p>
-              </div>
-            </div>
+            <a class="btn btn-default btn-lg" href="projects/">See All Projects</a>
           </div>
         </div>
       </div>
@@ -200,7 +162,7 @@
                             I am a web developer with a focus on Ruby on Rails currently living in Los Angeles, CA. My wife and I moved out here last year from the blistering desert of Las Vegas. I've always wanted to live in southern California but ultimately it was about keeping the Mrs. happy. Wise man once said, "Happy wife, happy life."</p>
                             <p>I'm a bit of a romantic. I'm also a bit of a goofball. My wife can attest to both. I love hard ciders (can't stand the taste of beer though as much as I try). I find great enjoyment in terrible movies. There's just something fantastic about a movie based on a silly premise, a bad plot, and not so good acting. I enjoy wasting time and getting lost in a video game. Much to the disappoint of my friends, I once again won our fantasy football league. I'm also taller than over 99% of people. Yes, I use to play basketball.</p>
                             <p>I decided to embark on this journey of being a web developer after buying a StackSocial deal. Its name was Coder Manual's Web Developer Bootcamp with Rails. The deal showed up on my Facebook feed one day and piqued my interest. I've always had a bit of a fascination with coding but never thought much of making it a career. Back when my family first got a computer in the mid 90s, I learned some basic HTML but CSS was too foreign of a concept. I played around with one of the Cs (either C# or C++) but that lasted all of five minutes.</p>
-                            <p>I have really enjoyed learning Ruby on Rails. I plan on taking an aggressive approach to learning to be a web developer. This includes the Web Developer Bootcamp, Codecademy courses, Free Code Camp, Michael Hartl's Ruby on Rails Tutorial, Harvard CS50, well, you see where I am going with this. I have find my passion and want to be a sponge of information. To me, this is not a hobby but the start of a new career doing something I love.</p>
+                            <p>I have really enjoyed learning Ruby on Rails. I plan on taking an aggressive approach to learning to be a web developer. This includes the Web Developer Bootcamp, Codecademy courses, Free Code Camp, Michael Hartl's Ruby on Rails Tutorial, Harvard CS50, well, you see where I am going with this. I have find my passion and want to be a sponge of information.</p>
                             <p>Follow my journey on my blog and feel free to reach out through the connect form to get in touch. I look forward to hearing from you!
                         </p>
                     </div>
