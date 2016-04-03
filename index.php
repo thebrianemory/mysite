@@ -48,7 +48,7 @@
               <a class="page-scroll" href="http://www.brianemory.com/blog">BLOG</a>
           </li>
           <li>
-              <a class="page-scroll" href="#projects">PROJECTS</a>
+              <a class="page-scroll" href="../projects">PROJECTS</a>
           </li>
           <li>
               <a class="page-scroll" href="#about">ABOUT</a>
@@ -59,7 +59,8 @@
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
-  </nav><!-- Intro Section -->
+  </nav>
+<!-- Intro Section -->
 <section class="intro-section" id="intro">
   <div class="container">
     <div class="row">
@@ -73,48 +74,51 @@
       </div>
     </div>
   </div>
-</section><!-- Blog Section -->
-    <section class="blog-section" id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="hr-section">
-                        <h1 class="section-header">
-                            <i class="fa fa-wordpress fa2x"></i> BLOG
-                        </h1>
-                    </div>
-                </div><!-- <div class="col-md-4">
-      <h2 class="text-left"><a href="#">Part One of the Blog</a></h2>
-      <p class="text-left">Bacon ipsum dolor amet venison ham prosciutto, landjaeger pork belly frankfurter pork loin filet mignon chuck sausage jerky boudin andouille. Tri-tip ham hock porchetta short ribs drumstick, turkey pancetta capicola cow kielbasa brisket doner
-        hamburger shoulder tongue. Salami meatball sausage pancetta capicola ball tip shoulder... <a href="#"><i class="fa fa-arrow-circle-right"></i> Read More</a></p> -->
-                <?php
-                $args = array( 'numberposts' => 3, 'post_status'=>"publish",'post_type'=>"post",'orderby'=>"post_date");
-                $postslist = get_posts( $args );
-                echo '<div id="latest_posts">';
-                 foreach ($postslist as $post) :  setup_postdata($post); ?>
-                <div class="col-md-4 text-left">
-                    <h3>
-                        <a class="blog-title" href="<?php the_permalink(); ?>" title="<?php the_title();?>"><?php the_title(); ?></a>
-                    </h3>
-                    <div class="blog-text">
-                        <p>
-                            Posted on <a class="blog-date" href="<?php the_permalink(); ?>" title="<?php the_title();?>"><?php the_date(); ?></a> by <a href="http://www.brianemory.com/blog/author/thebrianemory"><?php the_author(); ?></a>
-                        </p>
-                        <p>
-                            <?php the_excerpt();?>
-                        </p>
-                    </div>
-                </div><?php endforeach; ?>
-            </div>
+</section>
+<!-- Blog Section -->
+<section class="blog-section" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="hr-section">
+                    <h1 class="section-header">
+                        <i class="fa fa-wordpress fa2x"></i> BLOG
+                    </h1>
+                </div>
+            </div><!-- <div class="col-md-4">
+  <h2 class="text-left"><a href="#">Part One of the Blog</a></h2>
+  <p class="text-left">Bacon ipsum dolor amet venison ham prosciutto, landjaeger pork belly frankfurter pork loin filet mignon chuck sausage jerky boudin andouille. Tri-tip ham hock porchetta short ribs drumstick, turkey pancetta capicola cow kielbasa brisket doner
+    hamburger shoulder tongue. Salami meatball sausage pancetta capicola ball tip shoulder... <a href="#"><i class="fa fa-arrow-circle-right"></i> Read More</a></p> -->
+            <?php
+            $args = array( 'numberposts' => 3, 'post_status'=>"publish",'post_type'=>"post",'orderby'=>"post_date");
+            $postslist = get_posts( $args );
+            echo '<div id="latest_posts">';
+             foreach ($postslist as $post) :  setup_postdata($post); ?>
+            <div class="col-md-4 text-left">
+                <h3>
+                    <a class="blog-title" href="<?php the_permalink(); ?>" title="<?php the_title();?>"><?php the_title(); ?></a>
+                </h3>
+                <div class="blog-text">
+                    <p>
+                        Posted on <a class="blog-date" href="<?php the_permalink(); ?>" title="<?php the_title();?>"><?php the_date(); ?></a> by <a href="http://www.brianemory.com/blog/author/thebrianemory"><?php the_author(); ?></a>
+                    </p>
+                    <p>
+                        <?php the_excerpt();?>
+                    </p>
+                </div>
+            </div><?php endforeach; ?>
         </div>
-    </section><!-- Projects Section -->
+    </div>
+    <a class="btn btn-default btn-lg" href="http://www.brianemory.com/blog">See All Posts</a>
+</section>
+<!-- Projects Section -->
 <section class="projects-section" id="projects">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <div class="hr-section">
           <h1 class="section-header">
-              RECENT PROJECTS
+              PROJECTS
           </h1>
         </div>
           <div class="well">
@@ -144,7 +148,8 @@
         </div>
       </div>
   </div>
-</section><!-- About Section -->
+</section>
+<!-- About Section -->
     <section class="about-section" id="about">
         <div class="container">
             <div class="row">
@@ -169,7 +174,8 @@
                 </div>
             </div>
         </div>
-    </section><!-- Connect Section -->
+    </section>
+    <!-- Connect Section -->
     <section class="connect-section" id="connect">
         <div class="container">
             <div class="row">
@@ -233,14 +239,16 @@
                 </div>
             </div>
         </div>
-    </section><!-- Footer -->
+    </section>
+    <!-- Footer -->
     <div class="container">
         <footer class="footer">
             <p>
                 &copy; Brian Emory 2016
             </p>
         </footer>
-    </div><!-- Back To Top Button -->
+    </div>
+    <!-- Back To Top Button -->
     <div id="back-top">
         <a class="page-scroll btn btn-primary" href="#page-top"><i class="fa fa-angle-double-up"></i></a>
     </div><!-- End Back To Top Button -->
