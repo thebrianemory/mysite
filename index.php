@@ -122,27 +122,27 @@
           </h1>
         </div>
           <div class="well">
-          <div class="row">
-              <!-- For first row of projects -->
+            <div class="row">
+                <!-- For first row of projects -->
+                  <div class="col-md-4">
+                    <h3>Project Management App <a href="https://github.com/thebrianemory/saas-app" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
+                    <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/javascript.png" height="40px" class="fw-icons">
+                    <a href="https://saas-app-thebrianemory.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-saasapp.jpg"></a>
+                    <p class="text-left">The Project Management App is the fourth app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. Allows you to sign up as an organization, invite users to your organization, and create and collaborate on projects.</p>
+                </div>
+                  <div class="col-md-4">
+                    <h3>Photo App <a href="https://github.com/thebrianemory/photo-app" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
+                    <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/javascript.png" height="40px" class="fw-icons">
+                    <a href="https://photo-app-thebrianemory.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-photoapp.jpg"></a>
+                    <p class="text-left">Photo Management App is the third app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. Allows you to sign up choosing one of two paid plans, upload photos, follower users, and like photos.</p>
+                </div>
                 <div class="col-md-4">
-                  <h3>Project Management App <a href="https://github.com/thebrianemory/saas-app" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                  <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/javascript.png" height="40px" class="fw-icons">
-                  <a href="https://saas-app-thebrianemory.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-saasapp.jpg"></a>
-                  <p class="text-left">The Project Management App is the fourth app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. Allows you to sign up as an organization, invite users to your organization, and create and collaborate on projects.</p>
+                    <h3>Finance Tracker <a href="https://github.com/thebrianemory/finance-tracker" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
+                    <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/javascript.png" height="40px" class="fw-icons">
+                    <a href="https://finance-tracker-thebrianemory.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-financetracker.jpg"></a>
+                    <p class="text-left">Finance Tracker is the second app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. You can search and add stocks to track as well as search and add friends.</p>
+                </div>
               </div>
-                <div class="col-md-4">
-                  <h3>Photo App <a href="https://github.com/thebrianemory/photo-app" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                  <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/javascript.png" height="40px" class="fw-icons">
-                  <a href="https://photo-app-thebrianemory.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-photoapp.jpg"></a>
-                  <p class="text-left">Photo Management App is the third app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. Allows you to sign up choosing one of two paid plans, upload photos, follower users, and like photos.</p>
-              </div>
-              <div class="col-md-4">
-                  <h3>Finance Tracker <a href="https://github.com/thebrianemory/finance-tracker" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                  <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/javascript.png" height="40px" class="fw-icons">
-                  <a href="https://finance-tracker-thebrianemory.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-financetracker.jpg"></a>
-                  <p class="text-left">Finance Tracker is the second app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. You can search and add stocks to track as well as search and add friends.</p>
-              </div>
-            </div>
             <a class="btn btn-default btn-lg" href="projects/">See All Projects</a>
           </div>
         </div>
@@ -167,7 +167,7 @@
                             I am a web developer with a focus on Ruby on Rails currently living in Los Angeles, CA. My wife and I moved out here last year from the blistering desert of Las Vegas. I've always wanted to live in southern California but ultimately it was about keeping the Mrs. happy. Wise man once said, "Happy wife, happy life."</p>
                             <p>I'm a bit of a romantic. I'm also a bit of a goofball. My wife can attest to both. I love hard ciders (can't stand the taste of beer though as much as I try). I find great enjoyment in terrible movies. There's just something fantastic about a movie based on a silly premise, a bad plot, and not so good acting. I enjoy wasting time and getting lost in a video game. Much to the disappoint of my friends, I once again won our fantasy football league. I'm also taller than over 99% of people. Yes, I use to play basketball.</p>
                             <p>I decided to embark on this journey of being a web developer after buying a StackSocial deal. Its name was Coder Manual's Web Developer Bootcamp with Rails. The deal showed up on my Facebook feed one day and piqued my interest. I've always had a bit of a fascination with coding but never thought much of making it a career. Back when my family first got a computer in the mid 90s, I learned some basic HTML but CSS was too foreign of a concept. I played around with one of the Cs (either C# or C++) but that lasted all of five minutes.</p>
-                            <p>I have really enjoyed learning Ruby on Rails. I plan on taking an aggressive approach to learning to be a web developer. This includes the Web Developer Bootcamp, Codecademy courses, Free Code Camp, Michael Hartl's Ruby on Rails Tutorial, Harvard CS50, well, you see where I am going with this. I have find my passion and want to be a sponge of information.</p>
+                            <p>After doing the self-taught route for a few months, I have decided to join a bootcamp. I am currently attending Flatiron School's online bootcamp <a href="https://www.learn.co/verified?__hstc=196343731.078175476cc5d1cf4ced73003e72af4d.1459111699675.1459111699675.1459111699675.1&__hssc=196343731.9.1459296689053&__hsfp=1241917835" class="learn-link">Learn Verified</a>. So far it has been a fantastic experience. I am enjoying the learning process, the great community, the accessibility of the instructors, and all the other little extras outside of main curriculum. I feel like I made the right choice!</p>
                             <p>Follow my journey on my blog and feel free to reach out through the connect form to get in touch. I look forward to hearing from you!
                         </p>
                     </div>
