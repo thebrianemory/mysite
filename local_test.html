@@ -48,7 +48,7 @@
               <a class="page-scroll" href="http://www.brianemory.com/blog">BLOG</a>
           </li>
           <li>
-              <a class="page-scroll" href="../projects">PROJECTS</a>
+              <a class="page-scroll" href="#projects">PROJECTS</a>
           </li>
           <li>
               <a class="page-scroll" href="#about">ABOUT</a>
@@ -124,26 +124,26 @@
           <div class="well">
             <div class="row">
                 <!-- For first row of projects -->
-                  <div class="col-md-4">
-                    <h3>Project Management App <a href="https://github.com/thebrianemory/saas-app" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                    <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/javascript.png" height="40px" class="fw-icons">
-                    <a href="https://saas-app-thebrianemory.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-saasapp.jpg"></a>
-                    <p class="text-left">The Project Management App is the fourth app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. Allows you to sign up as an organization, invite users to your organization, and create and collaborate on projects.</p>
-                </div>
-                  <div class="col-md-4">
-                    <h3>Photo App <a href="https://github.com/thebrianemory/photo-app" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                    <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/javascript.png" height="40px" class="fw-icons">
-                    <a href="https://photo-app-thebrianemory.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-photoapp.jpg"></a>
-                    <p class="text-left">Photo Management App is the third app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. Allows you to sign up choosing one of two paid plans, upload photos, follower users, and like photos.</p>
+                <div class="col-md-4">
+                    <h3>Personal Portfolio <a href="https://github.com/thebrianemory/mysite" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
+                    <img src="img/html.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/php.png" height="40px" class="fw-icons">
+                    <a href="http://www.brianemory.com"><img class="img-responsive project-image" src="img/port-portfolio.jpg"></a>
+                    <p class="text-left">My personal portfolio project for Free Code Camp went from a basic site to a complete, obsessive makeover complete with learning some PHP. You can read all about it on <a href="http://www.brianemory.com/blog/how-my-personal-portfolio-project-became-an-obsession/">my blog</a>.</p>
                 </div>
                 <div class="col-md-4">
-                    <h3>Finance Tracker <a href="https://github.com/thebrianemory/finance-tracker" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
-                    <img src="img/ruby-rails.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/javascript.png" height="40px" class="fw-icons">
-                    <a href="https://finance-tracker-thebrianemory.herokuapp.com/" target="_blank"><img class="img-responsive project-image" src="img/port-financetracker.jpg"></a>
-                    <p class="text-left">Finance Tracker is the second app I made during the <a href="https://www.udemy.com/the-complete-ruby-on-rails-developer-course" target="_blank">Complete Ruby on Rails Developer Course</a>. You can search and add stocks to track as well as search and add friends.</p>
+                  <h3>Random Quote Machine <a href="https://github.com/thebrianemory/quote-machine" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
+                  <img src="img/javascript.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/jquery.png" height="40px" class="fw-icons">
+                    <a href="http://brianemory.com/quote-machine/" target="_blank"><img class="img-responsive project-image" src="img/port-qm.jpg"></a>
+                    <p class="text-left">Another Free Code Camp project, I was able to learn about the Twitter API and incorporating it into a site. This generator will tweet the generated quote to @TheXFiles with #TheXFiles.</p>
+                </div>
+                <div class="col-md-4">
+                  <h3>Local Weather App <a href="https://github.com/thebrianemory/local-weather-app" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
+                  <img src="img/javascript.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/jquery.png" height="40px" class="fw-icons">
+                    <a href="http://brianemory.com/local-weather-app/" target="_blank"><img class="img-responsive project-image" src="img/port-weather.png"></a>
+                    <p class="text-left">This fun Free Code Camp project allows you to see your local weather. Depending on the temperature, the background image will change.</p>
                 </div>
               </div>
-            <a class="btn btn-default btn-lg" href="projects/">See All Projects</a>
+            <!-- <a class="btn btn-default btn-lg" href="projects/">See All Projects</a> -->
           </div>
         </div>
       </div>
@@ -167,8 +167,8 @@
                             I am a web developer with a focus on Ruby on Rails currently living in Los Angeles, CA. My wife and I moved out here last year from the blistering desert of Las Vegas. I've always wanted to live in southern California but ultimately it was about keeping the Mrs. happy. Wise man once said, "Happy wife, happy life."</p>
                             <p>I'm a bit of a romantic. I'm also a bit of a goofball. My wife can attest to both. I love hard ciders (can't stand the taste of beer though as much as I try). I find great enjoyment in terrible movies. There's just something fantastic about a movie based on a silly premise, a bad plot, and not so good acting. I enjoy wasting time and getting lost in a video game. Much to the disappoint of my friends, I once again won our fantasy football league. I'm also taller than over 99% of people. Yes, I use to play basketball.</p>
                             <p>I decided to embark on this journey of being a web developer after buying a StackSocial deal. Its name was Coder Manual's Web Developer Bootcamp with Rails. The deal showed up on my Facebook feed one day and piqued my interest. I've always had a bit of a fascination with coding but never thought much of making it a career. Back when my family first got a computer in the mid 90s, I learned some basic HTML but CSS was too foreign of a concept. I played around with one of the Cs (either C# or C++) but that lasted all of five minutes.</p>
-                            <p>After doing the self-taught route for a few months, I have decided to join a bootcamp. I am currently attending Flatiron School's online bootcamp <a href="https://www.learn.co/verified?__hstc=196343731.078175476cc5d1cf4ced73003e72af4d.1459111699675.1459111699675.1459111699675.1&__hssc=196343731.9.1459296689053&__hsfp=1241917835" class="learn-link">Learn Verified</a>. So far it has been a fantastic experience. I am enjoying the learning process, the great community, the accessibility of the instructors, and all the other little extras outside of main curriculum. I feel like I made the right choice!</p>
-                            <p>Follow my journey on my blog and feel free to reach out through the connect form to get in touch. I look forward to hearing from you!
+                            <p>After doing the self-taught route for a few months, I have decided to join a bootcamp. I am currently attending Flatiron School's online bootcamp <a href="https://www.learn.co/verified?__hstc=196343731.078175476cc5d1cf4ced73003e72af4d.1459111699675.1459111699675.1459111699675.1&__hssc=196343731.9.1459296689053&__hsfp=1241917835" class="learn-link">Learn Verified</a>. So far it has been a fantastic experience. I am enjoying the learning process, the great community, the accessibility of the instructors, and all the other little extras outside of the main curriculum. I feel like I made the right choice!</p>
+                            <p>Follow my journey on my blog, connect with me on Twitter and LinkedIn, and feel free to reach out through the below form to get in touch. I look forward to hearing from you!
                         </p>
                     </div>
                 </div>
