@@ -45,7 +45,7 @@
               <a class="page-scroll" href="#page-top"></a>
           </li>
           <li>
-              <a class="page-scroll" href="http://www.brianemory.com/blog">BLOG</a>
+              <a class="page-scroll" href="https://medium.com/the-brian-emory">BLOG</a>
           </li>
           <li>
               <a class="page-scroll" href="#projects">PROJECTS</a>
@@ -77,39 +77,19 @@
 </section>
 <!-- Blog Section -->
 <section class="blog-section" id="blog">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="hr-section">
-                    <h1 class="section-header">
-                        <i class="fa fa-wordpress fa2x"></i> BLOG
-                    </h1>
-                </div>
-            </div><!-- <div class="col-md-4">
-  <h2 class="text-left"><a href="#">Part One of the Blog</a></h2>
-  <p class="text-left">Bacon ipsum dolor amet venison ham prosciutto, landjaeger pork belly frankfurter pork loin filet mignon chuck sausage jerky boudin andouille. Tri-tip ham hock porchetta short ribs drumstick, turkey pancetta capicola cow kielbasa brisket doner
-    hamburger shoulder tongue. Salami meatball sausage pancetta capicola ball tip shoulder... <a href="#"><i class="fa fa-arrow-circle-right"></i> Read More</a></p> -->
-            <?php
-            $args = array( 'numberposts' => 3, 'post_status'=>"publish",'post_type'=>"post",'orderby'=>"post_date");
-            $postslist = get_posts( $args );
-            echo '<div id="latest_posts">';
-             foreach ($postslist as $post) :  setup_postdata($post); ?>
-            <div class="col-md-4 text-left">
-                <h3>
-                    <a class="blog-title" href="<?php the_permalink(); ?>" title="<?php the_title();?>"><?php the_title(); ?></a>
-                </h3>
-                <div class="blog-text">
-                    <p>
-                        Posted on <a class="blog-date" href="<?php the_permalink(); ?>" title="<?php the_title();?>"><?php the_date(); ?></a> by <a href="http://www.brianemory.com/blog/author/thebrianemory"><?php the_author(); ?></a>
-                    </p>
-                    <p>
-                        <?php the_excerpt();?>
-                    </p>
-                </div>
-            </div><?php endforeach; ?>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="hr-section">
+          <h1 class="section-header">
+            <i class="fa fa-medium fa2x"></i> BLOG
+          </h1>
         </div>
+      </div>
     </div>
-    <a class="btn btn-default btn-lg" href="http://www.brianemory.com/blog">See All Posts</a>
+    <h4>In the process of moving my blog over to Medium. Should be completed in a few days.<br />Click below to see my posts on Medium until I get it integrate here.</h4>
+    <a class="btn btn-default btn-lg" href="https://medium.com/the-brian-emory">See All Posts</a>
+  </div>
 </section>
 <!-- Projects Section -->
 <section class="projects-section" id="projects">
@@ -123,7 +103,31 @@
         </div>
           <div class="well">
             <div class="row">
-                <!-- For first row of projects -->
+              <!-- For first row of projects -->
+              <div class="col-md-4">
+                  <h3>CLI Data Gem <a href="https://github.com/thebrianemory/nfl-top-stories-cli-gem" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
+                  <img src="img/ruby.png" height="40px" class="fw-icons"><img src="img/terminal.png" height="40px" class="fw-icons">
+                  <a href="https://github.com/thebrianemory/nfl-top-stories-cli-gem"><img class="img-responsive project-image" src="img/port-cli-data-gem.jpg"></a>
+                  <p class="text-left">I made this gem as part of <a href="http://learn.co/with/thebrianemory
+                  ">Learn Verified</a>. It was the final project for the Object Oriented Ruby section. It was fun, challenging, clever?? You can read all about the process and challenges I faced on <a href="https://medium.com/the-brian-emory/my-cli-data-gem-for-learn-verified-77a7c456b81a#.tii5uf7dw">my blog</a>.</p>
+              </div>
+              <div class="col-md-4">
+                <h3>Tic-Tac-Toe with AI <a href="https://github.com/thebrianemory/ttt-with-ai-project-v-000" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
+                <img src="img/ruby.png" height="40px" class="fw-icons"><img src="img/terminal.png" height="40px" class="fw-icons">
+                  <a href="https://github.com/thebrianemory/ttt-with-ai-project-v-000" target="_blank"><img class="img-responsive project-image" src="img/port-ttt-ai.jpg"></a>
+                  <p class="text-left">This project was lots of fun! Made as part of <a href="http://learn.co/with/thebrianemory
+                  ">Learn Verified</a>, the biggest challenge was getting the AI to be unbeatable. It took a bit of work but I was able to make it possible with MIN/MAX.</p>
+              </div>
+              <div class="col-md-4">
+                <h3>Music Library CLI <a href="https://github.com/thebrianemory/ruby-music-library-cli-v-000" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
+                <img src="img/ruby.png" height="40px" class="fw-icons"><img src="img/terminal.png" height="40px" class="fw-icons">
+                  <a href="https://github.com/thebrianemory/ruby-music-library-cli-v-000" target="_blank"><img class="img-responsive project-image" src="img/port-music-cli.jpg"></a>
+                  <p class="text-left">This project, along with the Collaborating Objects Lab, have been the most difficult so far on <a href="http://learn.co/with/thebrianemory
+                  ">Learn Verified</a>. Incredibly challenging and frustrating but ultimately rewarding when you get all those tests passing.</p>
+              </div>
+            </div>
+            <div class="row">
+                <!-- For second row of projects -->
                 <div class="col-md-4">
                     <h3>Personal Portfolio <a href="https://github.com/thebrianemory/mysite" target="_blank"><div class="btn btn-xs btn-info gh-btn">GitHub</div></a></h3>
                     <img src="img/html.png" height="40px" class="fw-icons"><img src="img/bootstrap.png" height="40px" class="fw-icons"><img src="img/php.png" height="40px" class="fw-icons">
